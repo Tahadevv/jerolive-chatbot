@@ -4,16 +4,16 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-langchain-community = "*"
-faiss-cpu = "*"
-pypdf = "*"
-huggingface-hub = "*"
 fastapi = "*"
-langchain = "*"
-langchain-huggingface = "*"
 flask = "*"
 gunicorn = "*"
 waitress = "*"
+langchain = "*"
+langchain-community = "*"
+langchain-huggingface = "*"
+faiss-cpu = "*"
+pypdf = "*"
+huggingface-hub = "*"
 streamlit = "*"
 
 [dev-packages]
